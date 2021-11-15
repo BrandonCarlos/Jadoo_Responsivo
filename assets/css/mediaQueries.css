@@ -1,0 +1,318 @@
+.decore-two {
+  bottom: -8rem;
+}
+
+.menu-hamburguer {
+  display: none;
+}
+
+@media (max-width: 1340px) {
+  html {
+    font-size: 55%;  
+  }
+
+
+  .destinations-item:last-child {
+    margin-top: -17rem;
+  }
+}
+
+@media (max-width: 1320px) {
+  .apresentation-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .apresentation-description {
+    max-width: 80rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 1210px) {
+  html {
+    font-size: 48.75%;
+  }
+
+  .jadoo-description {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .book-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 4rem;
+  }
+
+  .about-apresentation {
+    margin-bottom: 10rem;
+  }
+
+  .person-resume-one,
+  .person-resume-two {
+    grid-column: 1 / 3;
+  }
+
+  .arrows {
+    grid-row: 2 / 4;
+  }
+
+  .subscribe-content {
+    padding: 5.9rem 8.5rem 5.8rem 8.5rem;
+  }
+
+  .subscribe-content h3 {
+    font-size: 2.3rem;
+  }
+
+  .subscribe-content button {
+    font-size: 1.3rem
+  }
+
+  .circle-one {
+    top: 10rem;
+    left: 2rem;
+  }
+
+  .circle-one img {
+    width: 30rem;
+  }
+
+  .circle-two img {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 995px) {
+
+  .destinations-container h3,
+  .destinations-container h1 {
+    margin-left: 0;
+  }
+
+  .destinations-item:nth-child(2) {
+    margin-top: -17rem;
+  }
+
+  .destinations-grid {
+    justify-content: center;
+  }
+
+  .destinations-item {
+    margin-left: -3rem;
+  }
+
+  .decore-ondas img {
+    right: -6rem;
+  }
+
+  .marcas-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .about-apresentation {
+    grid-column: 1 / 4;
+  }
+
+  .subscribe-content {
+    margin: 0;
+  }
+
+  .gps {
+    top: -3rem;
+    right: -4rem;
+  }
+
+  .menu-hamburguer {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .list-nav {
+    max-width: 20rem;
+    background: var(--color-yellow);
+    border-radius: 1rem 0 0 1rem;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    padding: 10rem 2rem 2rem 2rem;
+    z-index: 100;
+    display: none;
+    animation: toLeft 700ms ease-in-out forwards;
+  }
+
+  @keyframes toLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(3rem, 0, 0);
+    } to {
+      opacity:  1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .list-nav.active {
+    display: block;
+  }
+
+  .list-nav li a,
+  .list-nav li select {
+    color: white;
+  }
+
+  .list-nav li a[href^="#signup"] {
+    border: .2rem solid white;
+  }
+
+  .list-nav li + li {
+    margin-top: 1rem;
+  }
+
+  .menu-hamburguer {
+    position: absolute;
+    right: 3rem;
+    z-index: 200;
+    padding: 1.5rem 3rem;
+    background: var(--color-red);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .menu-hamburguer::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: .2rem;
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0 -.5rem white, 0 -1rem white;
+    margin-right: .5rem;
+  }
+
+  .apresentation {
+    margin: 2rem 2rem 9.7rem 2rem;
+  }
+  
+  .services-container {
+    margin: 0 2rem 12.3rem 2rem;
+  }
+  
+  .footer-links .more {
+    margin-right: 0rem;
+  }
+
+  .group-pontos img {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .apresentation-description {
+    min-width: 46.5rem;
+  }
+
+  .apresentation-description h1 {
+    font-size: 5.4rem;
+  }
+
+  .apresentation-description h1 img,
+  .pontos-image img,
+  .gps img {
+    display: none;
+  }
+
+  .apresentation-image img {
+    height: 60rem;
+  }
+
+  .destinations-container {
+    margin: 0 2.5rem 18.6rem 2.3rem;
+  }
+
+  .book-container {
+    margin: -15rem 2rem 20rem
+  }
+  
+  .services-grid {
+    justify-items: center;
+    gap: 1rem;
+  }
+
+  .book-container-image {
+    padding: 1rem 1.4rem 2.1rem 1.5rem;
+    max-width: 31rem;
+  }
+
+  .book-container-image > img {
+    width: 23rem;
+  }
+
+  .description-completed {
+    padding: .8rem .6rem 1.2rem .6rem;
+    min-width: 23.3rem;
+    margin-right: -7rem;
+  }
+
+  .subscribe-container {
+    margin: 0rem 1.6rem 9.6rem 1.8rem;
+  }
+
+  .subscribe-content {
+    padding: 2.9rem 1.5rem 2.8rem 1.5rem;
+  }
+
+  .subscribe-content h3 {
+    font-size: 1.5rem;
+    max-width: 33rem;
+  }
+
+  .input-email {
+    min-width: 100%;
+    margin-bottom: 1rem;
+    margin-right: 0rem;
+  }
+
+  .subscribe-content button {
+    font-size: 1.3rem;
+    padding: 2.2rem 3rem 2.3rem 3rem;
+  }
+
+  .input-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .group-pontos {
+    display: none;  
+  }
+
+  .about-container {
+    margin: 0rem .9rem 9.6rem 5.6rem;
+  }
+
+  .marcas-container {
+    margin: 0rem 2rem 11.1rem 2rem;
+  }
+
+  .footer-container {
+    margin: 0 2rem 11.1rem 2rem;
+  }
+
+  .footer-links {
+    margin-bottom: 4rem;
+  } 
+
+}

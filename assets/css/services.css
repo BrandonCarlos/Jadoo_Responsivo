@@ -1,0 +1,71 @@
+.services-container {
+  max-width: 122.8rem;
+  margin: 0 5.8rem 12.3rem 15.4rem;
+  text-align: center;
+  position: relative;
+}
+
+.services-container h3,
+.destinations-container h3,
+.book-container-image h3,
+.person-resume-one h3,
+.person-resume-two h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  color: #5E6282;
+}
+
+.services-container h1,
+.destinations-container h1,
+.book-description h1,
+.about-apresentation h1 {
+  font-family: 'Volkhov', sans-serif;
+  font-size: 5rem;
+  margin-bottom: 10.08rem;
+}
+
+.pontos-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+
+.services-item {
+  max-width: 19rem;
+}
+
+.services-item:nth-child(2) img {
+  margin-top: -4.5rem;
+}
+
+.services-item:nth-child(2) h2 {
+  margin-top: 0rem;
+}
+
+.services-item:nth-child(3),
+.services-item:nth-child(4) {
+  max-width: 18.1rem;
+}
+
+.services-item h2 {
+  color: #1E1D4C;
+  font-size: 2rem;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 500;
+  margin-toP: 2.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.services-item p {
+  color: #5E6282;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  max-width: 18.1rem;
+}
+

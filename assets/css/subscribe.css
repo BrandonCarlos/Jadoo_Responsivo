@@ -1,0 +1,88 @@
+.subscribe-container {
+  max-width: 135.6rem;
+  margin: 0 3.6rem 9.6rem 4.8rem;
+  position: relative;
+}
+
+.subscribe-content {
+  max-width: 117rem;
+  margin: 0 9.9rem 0 8.7rem;
+  background: #DFD7F9;
+  border-radius: 12.9rem 2rem 2rem 2rem;
+  padding: 7.9rem 15.5rem 7.8rem 15.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe-content h3 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #5E6282;
+  margin-bottom: 7.4rem;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-email {
+  height: 6.8rem;
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 2.5rem 3.1rem;
+  border-radius: 1rem;
+  min-width: 42.1rem;
+  margin-right: 2.4rem;
+}
+
+.input-email img {
+  margin-right: 1.4rem;
+}
+
+.input-email input {
+  min-width: 30rem;
+  padding: 1rem 0;
+  border: none;
+}
+
+.subscribe-content button {
+  background: linear-gradient(to bottom, rgb(255, 148, 109, 100%), rgb(255, 125, 104, 100%));
+  padding: 2.2rem 5rem 2.3rem 5rem;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.gps,
+.circle-one,
+.circle-two,
+.group-pontos {
+  position: absolute;
+}
+
+.gps {
+  top: -2rem;
+  right: 6rem;
+}
+
+.circle-one {
+  top: 4rem;
+}
+
+.circle-two {
+  top: 0;
+  right: 10rem;
+}
+
+.group-pontos {
+  right: 0;
+  bottom: -7rem;
+}

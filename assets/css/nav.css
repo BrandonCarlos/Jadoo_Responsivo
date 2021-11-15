@@ -1,0 +1,144 @@
+.section-nav{
+  min-height: 87.258rem;
+  background: url('/assets/img/Decore.png');
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-nav {
+  display: flex;
+  align-items: center;
+}
+
+.list-nav li a,
+.list-nav li select option {
+  color: #212832;
+  font-size: 1.7rem;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 500;
+}
+
+.list-nav li select {
+  border: none;
+  background: none;
+}
+
+.list-nav li a[href^="#desitnations"] {
+  margin-right: 5.5rem;
+}
+
+.list-nav li a[href^="#hotels"] {
+  margin-right: 6.4rem;
+}
+
+.list-nav li a[href^="#flights"] {
+  margin-right: 6.2rem;
+}
+
+.list-nav li a[href^="#bookings"] {
+  margin-right: 8.6rem;
+}
+
+.list-nav li a[href^="#login"] {
+  margin-right: 5.2rem;
+}
+
+.list-nav li a[href^="#signup"] {
+  display: inline-block;
+  border: .1rem solid #212832;
+  padding: .9rem 2.1rem .9rem 2.2rem;
+  border-radius: .5rem;
+  margin-right: 4.2rem;
+}
+
+.apresentation {
+  max-width: 144rem;
+  margin: 1.8rem 9.113rem 9.7rem 14.8rem;
+}
+
+.apresentation-grid {
+  max-width: 120.087rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.apresentation-description {
+  min-width: 54.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 11.2rem;
+}
+
+.apresentation-description h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-red);
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.apresentation-description h1 {
+  font-size: 8.4rem;
+  font-family: 'Volkhov', sans-serif;
+  position: relative;
+  margin-bottom: 3rem;
+  letter-spacing: -4px;
+  line-height: 9.4rem;
+}
+
+.apresentation-description h1 img {
+  position: absolute;
+  top: 7.5rem;
+  left: 26rem;
+  z-index: -1;
+}
+
+.apresentation-description p {
+  max-width: 47.7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3.4rem;
+}
+
+.buttons,
+.button-play {
+  display: flex;
+  align-items: center;
+}
+
+.buttons > button {
+  background: var(--color-yellow);
+  padding: 1.9rem 2.6rem 1.8rem 2.7rem;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  margin-right: 4.4rem;
+}
+
+.button-play img {
+  background: var(--color-red);
+  padding: 2rem 1.8rem 1.7rem 1.9rem;
+  border-radius: 50%;
+  margin-right: 2.1rem;
+  box-shadow: 0 1.5rem 3rem 0 rgb(223, 105, 81, 30%);
+}
+
+.button-play p {
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+.apresentation-image img {
+  max-width: 100%;
+  height: 72rem;
+  margin-left: -10rem;
+}
+

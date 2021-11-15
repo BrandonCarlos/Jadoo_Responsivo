@@ -1,0 +1,150 @@
+.book-container {
+  max-width: 111.4rem;
+  margin: -15rem 14rem 20rem 18.6rem;
+}
+
+.book-container > h3,
+.about-apresentation h3 {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #5E6282;
+  margin-bottom: 1.5rem;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: end;
+}
+
+.book-description h1 {
+  text-transform: capitalize;
+  margin-bottom: 3.1rem;
+}
+
+.book-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.book-flex img {
+  background: var(--color-yellow);
+  padding: 1.3rem 1.2rem 1.3rem 1.3rem;
+  margin-right: 2.1rem;
+  border-radius: 1.3rem;
+}
+
+.book-flex:nth-last-child(2) img {
+  background: var(--color-red);
+}
+
+.book-flex:last-child img {
+  background: #006380;
+}
+
+.book-resume h3 {
+  font-weight: bold;
+  margin-bottom: .4rem;
+}
+
+.book-resume p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  color: #5E6282;
+}
+
+.book-container-image {
+  padding: 2rem 2.4rem 3.1rem 2.5rem;
+  background: white;
+  border-radius: 2.6rem;
+  max-width: 37rem;
+  position: relative;
+}
+
+.book-container-image h3 {
+  margin: 2.6rem 0 1.3rem; 
+}
+
+.nasc-city,
+.options,
+.peoples-flex,
+.peoples {
+  display: flex;
+  align-items: center;
+}
+
+.peoples-flex {
+  justify-content: space-between;
+}
+
+.nasc-city {
+  margin-bottom: 2.1rem;
+}
+
+.options {
+  margin-bottom: 2.9rem;
+}
+
+.options img {
+  display: inline-block;
+  background: #F5F5F5;
+  padding: 1.2rem 1.1rem 1rem 1.1rem;
+  border-radius: 50%;
+}
+
+.options img + img {
+  margin-left: 1.8rem;
+}
+
+.peoples-flex img {
+  margin-right: 1.5rem;
+}
+
+.nasc-city p,
+.peoples-flex p {
+  color: #84829A;
+}
+
+.description-completed {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: white;
+  padding: 1.8rem .6rem 2.2rem .6rem;
+  min-width: 26.3rem;
+  border-radius: 1.8rem;
+  margin-right: -11rem;
+  margin-bottom: 7rem;
+  box-shadow: 0 .185rem .315rem 0 rgb(0, 0, 0, 4.8%);
+}
+
+.porcentagem-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.porcentagem-image img {
+  margin-right: 1.2rem;
+}
+
+.porcentagem-description p {
+  font-size: 1.4rem;
+  color: #080809;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.porcentagem-image p span {
+  color: var(--color-purple);
+}
+
+.porcentagem-image h2 {
+  color: #080809;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin: .6rem 0 1.4rem 0;
+}

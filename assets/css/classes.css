@@ -1,0 +1,14 @@
+.main-content {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.nav-content {
+  max-width: 116.058rem;
+  margin: 0 auto;
+  padding: 4.7rem 0 0 0;
+}
+
+.section {
+  min-height: 100vh;
+}

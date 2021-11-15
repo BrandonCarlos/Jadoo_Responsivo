@@ -1,0 +1,169 @@
+.footer-container {
+  max-width: 107.03rem;
+  margin: 0 18.1rem 11.1rem 18.6rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.jadoo-description {
+  max-width: 20.7rem;
+  margin-right: 8.3rem;
+}
+
+.jadoo-description h2 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jadoo-description p {
+  font-size: 1.3rem;
+  color: #5E6282;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.company {
+  max-width: 10.8rem;
+  margin-right: 7.2rem;
+}
+
+.contact {
+  max-width: 8.9rem;
+  margin-right: 9.1rem;
+}
+
+.more {
+  max-width: 11.4rem;
+  margin-right: 8.2rem;
+}
+
+.company h3,
+.contact h3,
+.more h3 {
+  color: #080809;
+  font-size: 2.1rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3.4rem
+}
+
+.contact h3 {
+  margin-bottom: 3.2rem;
+}
+
+.company ul li a,
+.contact ul li a,
+.more ul li a {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #5E6282;
+}
+
+.company ul li + li,
+.contact ul li + li,
+.more ul li + li {
+  margin-top: 1.2rem;
+}
+
+.redes-sociais-aplicativos {
+  max-width: 21.4rem;
+}
+
+.redes-sociais {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.6rem;
+}
+
+.redes-sociais img {
+  background: white;
+  padding: 1.6rem 1.757rem 1.231rem 1.757rem;
+  border-radius: 50%;
+  box-shadow: 0 .2rem 1rem 0 rgb(0, 0, 0, 10%);
+}
+
+.redes-sociais .angular-image img {
+  background: none;
+  padding: 0rem;
+  box-shadow: 0;
+  border-radius: none;
+}
+
+.angular-image {
+  background: url('/assets/img/angular.png');
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-sociais img:last-child {
+  padding: 1.4rem 1.3rem 1.4rem 1.2rem;
+}
+
+.redes-sociais img + img {
+  margin-left: 2.5rem;
+}
+
+.aplicativos > p {
+  color: #5E6282;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1.6rem;
+}
+
+.aplicativos-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playstore,
+.apple {
+  background: #080809;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: .7rem 1.112rem .8rem 1.7rem;
+  border-radius: 1.75rem;
+}
+
+.playstore img {
+  margin-right: .524rem;
+}
+
+.apple img {
+  margin-right: .544rem;
+}
+
+.direitos-reservados {
+  margin-bottom: 7.9rem;
+  position: relative;
+}
+
+.direitos-reservados p {
+  font-size: 1.4rem;
+  color: #5E6282;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.decore-two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+

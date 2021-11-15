@@ -1,0 +1,30 @@
+.marcas-container {
+  max-width: 107.03rem;
+  margin: 0 18.1rem 11.1rem 18.6rem;
+}
+
+.marcas-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.marcas-flex img {
+  display: inline-block;
+}
+
+.marcas-flex img:first-child {
+  margin-right: 7.7rem;
+}
+
+.marcas-flex img:nth-child(2) {
+  margin-right: 5.014rem;
+}
+
+.marcas-flex img:nth-child(3) {
+  margin-right: 4.7rem;
+}
+
+.marcas-flex img:nth-child(4) {
+  margin-right: 9.9rem;
+}

@@ -27,6 +27,7 @@
 ### CSS
 ### JAVASCRIPT
 
+Acesse na web -> <a href="https://jadoo-responsivo.netlify.app/">Jadoo</a>
 <br>
 <br>
 <p align="center">Feito com muito ❤️ por Brandon Carlos</p>

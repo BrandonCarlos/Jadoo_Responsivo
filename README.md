@@ -8,14 +8,14 @@
 <br>
 
 <h2 align="center" style="color: blue">Descrição do projeto</h2>
-<p>O projeto "Jadoo" ainda está bem no inicio, más já está com uma aparência muita legal, vamos evoluindo este projeto.</p>
+<p>O projeto "Jadoo" já está todo responsivo, vamos para as funcionalidade com javascript.</p>
 
 ## Features:
 
 - [] Modal
-- [] Responsivo
+- [X] Responsivo
 - [] Dropdown
-- [] Menu mobile
+- [X] Menu mobile
 - [] Navegação por Tab
 - [] Scroll Suave
 - [] Accordion 
